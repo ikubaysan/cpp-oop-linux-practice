@@ -1,0 +1,93 @@
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+build/
+*.cmake
+!CMakeLists.txt
+
+# Editor files and backups
+*~
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Dependency directories
+external/
+
+# Ignore specific config files
+*.kdev4
+*.kdev4
+*.sublime-workspace
+
+# Ignore specific files
+*.user
+*.userprefs
+*.users
+*.suo
+*.sdf
+*.opensdf
+*.opendb
+*.VC.db
+
+# macOS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear on external filesystems
+.Spotlight-V100
+.Trashes
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
