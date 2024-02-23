@@ -7,7 +7,7 @@ sudo apt update
 sudo apt install build-essential
 ```
 
-
+```
 repo/
 |-- CMakeLists.txt
 |-- include/
@@ -26,3 +26,13 @@ repo/
 `-- external/
     `-- nlohmann/
         `-- json.hpp
+```
+
+From root of repo:
+
+`mkdir build`
+`cd build`
+`cmake ..`
+`make`
+
+You will see a `UserAdminApp` and `tests` executable.
